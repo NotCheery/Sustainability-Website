@@ -1,0 +1,172 @@
+
+/*The general, overall styling*/
+html {
+  background-color: #fafafa;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color:#f5f5dc;
+  background: linear-gradient(to bottom right, #c6e6d3, #bfccdf);
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+/* Add animation to the heading */
+h1 {
+  color: #2a6412;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 20px;
+  animation: colorchange 5s infinite; /* Animation name, duration, and iteration count */
+}
+@keyframes colorchange {
+  0% {
+    color: #2a6412;
+  }
+  50% {
+    color: #1cb611;
+  }
+  100% {
+    color: #2a6412;
+  }
+}
+h2 {
+  text-align: center;
+  color: #2a6412;
+  padding: 3%;
+}
+h4 {
+  font-size: 18px;
+}
+img {
+  display: block; /* Make the image a block element */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  border-radius: 10px;
+  width: 50%;
+}
+
+a,
+a:hover {
+  text-decoration: none; /* Remove underlining from anchor elements */
+  color: inherit; /* Inherit color property to maintain text color */
+}
+
+/*Impact*/
+.list {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif; 
+}
+/*Style the main giant image*/
+#Climate {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Navigation bar */
+.navbar {
+  background-color: #2a6412;
+  overflow: hidden;
+  position: fixed; /* Add this line */
+  width: 100%; /* Add this line to ensure it spans the full width */
+  top: 0; /* Add this line to position it at the top */
+  z-index: 1000; /* Add this line to ensure it appears above other content */
+}
+/* General style rule set for all items in ul */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+/* Style rule set for individual li */
+.navbar ul li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+/* Style rule set for individual li link */
+.navbar ul li a {
+  display: block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-decoration: none;
+  color: white;
+}
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+  background-color: #0a0a0a;
+  border-radius: 5px; /* Optional: Add rounded corners on hover */
+}
+
+
+/*Fixing alignment at the top of the page*/
+.content-container {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+}
+.image {
+  margin-right: 5%;
+  width: 40%;
+  height: auto;
+  margin-left: 5%;
+}
+.paragraph-right {
+  text-align: left;
+  margin-right: 5%;
+  flex: 1; /* Allows the paragraph to take up remaining space */
+}
+.learn-more {
+  background-color: white;
+  color: #095309;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Add some space above the button */
+}
+
+/*Volunteer section*/
+#volunteer-link {
+  font-size: 18px;
+  color: #095309;
+}
+#volunteer-link a:hover{
+  font-weight: bold;
+}
+
+/*Contact and Survey*/
+.survey {
+  padding-bottom: 10%;
+  text-align: center;
+}
+#survey-heading {
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 20px;
+}
+.survey button {
+  background-color: white;
+  color: #095309;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add a subtle hover effect to buttons */
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.subscribe {
+  text-align: center;
+  padding: 10px;
+}
+
+.subscribe input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}

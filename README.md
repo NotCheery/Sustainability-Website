@@ -12,6 +12,6 @@ It contains brief information about sustainability and some ways to help.
 - Added a textbox and a subscribe button to subscribe to newsletters.
 
 # Future Updates/Goals
-[ ] Intended to validate email in textbox.
-[ ] Make the Learn more button functional.
-[ ] Add a Video Walkthrough of the website.
+- Intended to validate email in textbox.
+- Make the Learn more button functional.
+- Add a Video Walkthrough of the website.

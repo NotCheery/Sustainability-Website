@@ -128,13 +128,11 @@ a:hover {
 }
 
 /*Volunteer section*/
-#volunteer-link {
+.volunteer-link {
   font-size: 18px;
-  color: #095309;
+  color: green;
 }
-#volunteer-link a:hover{
-  font-weight: bold;
-}
+
 
 /*Contact and Survey*/
 .survey {

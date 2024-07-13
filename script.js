@@ -36,16 +36,31 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-//Bold when hovering over volunteer links
-document.addEventListener("DOMContentLoaded", function() {
-  const volunteerLinks = document.querySelectorAll('#volunteer-link');
+//Bold when hovering over volunteer links.
+//We start with a function, and in this function contains a loop.
+document.addEventListener("DOMContentLoaded", function() {      //ensures js runs only when entire html doc is loaded.
+  //querySelectorAll selects everything in html that has class=volunteer-link
+  const volunteerLinks = document.querySelectorAll('.volunteer-link');
+
+  //forEach loop
   volunteerLinks.forEach(link => {
+    
+    //When hovering over the link...
     link.addEventListener('mouseover', () => {
       link.style.fontWeight = 'bold';
+      link.style.color = 'green';
     });
+
+    //When you move your mouse away after hovering over the link, it goes back to normal.
     link.addEventListener('mouseout', () => {
       link.style.fontWeight = 'normal';
     });
+
+    //When user clicks on link, the color changes to light green.
+    link.addEventListener('click', () => {
+      link.style.color = '#15e115';
+    });
+
   });
 });
 

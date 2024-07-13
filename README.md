@@ -4,6 +4,9 @@
 This is a website focused on education regarding Sustainability. 
 It contains brief information about sustainability and some ways to help.
 
+#Click on the link to view the walkthrough of the website.
+<a href = "https://www.loom.com/share/989a2b1b51f2407b827c89760ce6bc5c?sid=3cfb776e-58e5-48eb-b10b-699853dc1d2a" target="_blank">Video Walkthrough</a>
+
 # Built With:
 -**Coding**: Html, CSS, JavaScript
 -**Tools**: VScode

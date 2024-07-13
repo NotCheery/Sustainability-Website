@@ -5,7 +5,9 @@ html {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-color:#f5f5dc;
+  /*Add gradient color to background*/
+  background: linear-gradient(to bottom right,#a6cab6,#c9b6d3);
+  background: -webkit-linear-gradient(to bottom right, #b6d6c5 ,#c9b6d3); /*for older browsers*/
 }
 p {
   font-family: 'Poppins', sans-serif;
@@ -19,17 +21,7 @@ h1 {
   padding: 20px;
   animation: colorchange 5s infinite; /* Animation name, duration, and iteration count */
 }
-@keyframes colorchange {
-  0% {
-    color: #2a6412;
-  }
-  50% {
-    color: #1cb611;
-  }
-  100% {
-    color: #2a6412;
-  }
-}
+
 h2 {
   text-align: center;
   color: #2a6412;

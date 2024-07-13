@@ -14,7 +14,7 @@ It contains brief information about sustainability and some ways to help.
 - Survey Form Button opens up a new tab assessing user response and feedback.
 
 # Future Updates/Goals
-- Intended to validate email in textbox.
+- Intend to validate email in textbox.
 - Make the Learn more button functional.
 - Apply flexbox so that sizing is adjusted for different screens.
 - Add a Video Walkthrough of the website.
